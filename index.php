@@ -89,13 +89,16 @@ $db=[
     <div class="logo">
         <img src="./img/google.png" alt="">
         <span> Privacy & Terms</span>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     </div>
     <nav>
         <ul>
             <li>Overvew</li>
             <li>Privacy Policy</li>
             <li>Term of Service</li>
-            <li>technologies</li>
+            <li>Technologies</li>
             <li class="selected">
             FAQ
             <div class="sel_menu"></div>

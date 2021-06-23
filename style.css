@@ -3,7 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: 'Quicksand', sans-serif;
+}
 header{
  
     border-bottom: 1px solid grey;
@@ -18,11 +20,14 @@ main{
 }
 
 h2{
+    font-size: 2rem;
     margin-bottom: 2.5rem;
 }
 p{
+    font-size: 1.1rem;
     margin-bottom: 2rem;
     line-height: 1.4rem;
+    color: rgb(71, 71, 71);
 }
 
 ol{
@@ -31,6 +36,7 @@ ol{
 }
 li{
     margin-bottom: 1rem;
+    font-size: 1.1rem;
 }
 .logo{
     display: flex;
@@ -38,12 +44,12 @@ li{
     padding: 1rem;
 }
 img{
-    height: 20px;
+    height: 25px;
     margin-right: 0.3rem;
 }
 span{
     font-size: 1.4rem;
-    color: grey;
+    color: rgb(88, 88, 88);
 }
 nav{
     margin:1rem;
@@ -51,8 +57,9 @@ nav{
 nav>ul>li{
     list-style: none;
     display: inline;
-    color: grey;
-    margin-right: 1rem;
+    color: rgb(88, 88, 88);
+    font-size: 1.1rem;
+    margin-right: 1.6rem;
     position: relative;
 }
 .selected{
